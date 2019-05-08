@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html, body {
+  background-color: #1e1e1e; 
+}
+
+body > div {
+  background-color: #343434;
+  height: 4em;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.menu {
+  height: 0;
+  overflow: hidden;
+  padding: 0 30px;
+  transition: height 0.11s, padding 0.11s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  position: absolute;
+  right: 0;
+}
+
+a {
+  color: #D3F0D4;
+  font-weight: 200;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#hamburger {
+  width: 1.3em;
+  height: 1.3em;
+  font-size: 1.5em;
+  font-family: monospace;
+  background-color: #343434;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:focus, input:focus{
+  outline: none;
+}
+
+#fnbrlogo {
+  height: 2.8em;
+  margin-right: auto;
+}
