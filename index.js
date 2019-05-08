@@ -12,5 +12,5 @@ const guns = connection.database('guns')
 if (!guns.existsSync())
     guns.createSync()
 
-app.use(express.static('./'));
+app.use(express.static('./client'));
 app.listen(80);
