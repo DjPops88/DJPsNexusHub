@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html, body {
@@ -57,4 +59,21 @@ button:focus, input:focus{
 #fnbrlogo {
   height: 2.8em;
   margin-right: auto;
+}
+
+#main {
+  background-color: transparent;
+}
+
+table {
+  padding: 3em;
+  color: rgb(230, 240, 230);
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid gray;
 }

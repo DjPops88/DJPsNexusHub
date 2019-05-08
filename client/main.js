@@ -16,3 +16,10 @@ $('button').addEventListener('click', event => {
         $('.menu').style.height = 'auto'
     }
 })
+
+const setPage = async page => {
+    const data = await (await fetch (`${location.origin}/components/${page}.html`)).text()
+    $('#main').innerHTML = data
+}
+
+setPage ('table')
