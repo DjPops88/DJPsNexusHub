@@ -22,4 +22,4 @@ const setPage = async page => {
     $('#main').innerHTML = data
 }
 
-setPage ('table')
+setPage ('home')

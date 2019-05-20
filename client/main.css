@@ -10,7 +10,7 @@ html, body {
   background-color: #1e1e1e; 
 }
 
-body > div {
+.navigation, .menu {
   background-color: #343434;
   height: 4em;
   padding: 15px;
@@ -67,7 +67,7 @@ button:focus, input:focus{
 
 table {
   padding: 3em;
-  color: rgb(230, 240, 230);
+  color: rgb(48, 132, 158);
   border-collapse: collapse;
 }
 
@@ -75,5 +75,12 @@ td, th {
   text-align: center;
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid gray;
+  border: 1px solid rgb(54, 53, 53);
+}
+
+.footer {
+  height: auto;
+  font-size: 0.7em;
+  background-color: transparent;
+  padding: 0.6em;
 }
